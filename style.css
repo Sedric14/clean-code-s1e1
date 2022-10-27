@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.top-container img {
+.topImage {
   width: 100%;
 }
 
@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.taskLabel, .task {
+.taskLabel,
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,11 +50,14 @@
   padding: 0px;
 }
 
-.list-item, .title {
+.list-item,
+.title {
   list-style: none;
 }
 
-.task, .checkbox, .button {
+.task,
+.checkbox,
+.button {
   outline: none;
 }
 
@@ -122,7 +126,7 @@
   vertical-align: middle;
 }
 
-.list-item>.checkbox {
+.checkbox {
   margin: 0 10px;
 }
 
