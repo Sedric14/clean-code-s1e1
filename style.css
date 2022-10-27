@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .top-container {
     text-align: center;
   }
+
 }
 
 .center-container {
@@ -70,6 +72,7 @@ body {
 }
 
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
@@ -100,10 +103,6 @@ body {
 }
 
 /* New Task */
-/* label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-} */
 
 #new-task {
   width: 318px;
@@ -114,7 +113,6 @@ body {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,12 +148,14 @@ body {
 }
 
 /* Completed */
+
 #completed-tasks .taskLabel {
   text-decoration-line: line-through;
   text-decoration-color: #888;
 }
 
 /* Edit Task */
+
 .list .list-item .task {
   display: none
 }
